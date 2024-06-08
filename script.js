@@ -26,24 +26,24 @@ async function sendContact(ev) {
             fields: [
                 {
                     name: 'Sender Name',
-                    value: senderName
+                    value: `> ${senderName}`
                 },
 
                 {
                     name: 'Sender Email',
-                    value: senderEmail
+                    value: `> ${senderEmail}`
                 },
                 {
                     name: 'Sender Number',
-                    value: senderNumber
+                    value: `> ${senderNumber}`
                 },
                 {
                     name: 'Sender Subject',
-                    value: subject
+                    value: `> ${subject}`
                 },
                 {
                     name: 'Sender Message',
-                    value: senderMessage
+                    value: `> ${senderMessage}`
                 }
             ]
         }],
