@@ -253,7 +253,7 @@ section {
     justify-content: center;
     align-items: center;
     background: var(--main-color);
-    height: 600px;
+    height: 450;
     border-radius: 3rem;
     cursor: pointer;
     border: 5px solid transparent;
